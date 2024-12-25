@@ -1,13 +1,19 @@
 # Personalized Email Generator with LLM feedback
 
-#### Project Description
+This project is an AI-powered tool designed to generate personalized emails for job applications based on a given job description and a user's CV.
 
-- **Personalized Email Generation**: Developed an application to automate personalized email writing for job applications using advanced language models, dynamically adapting to job descriptions and candidate CVs.  
-- **Interactive Streamlit Interface**: Designed a user-friendly interface allowing users to input job URLs, upload CVs, and select language models, ensuring a seamless experience for non-technical users.  
-- **Dynamic Model Selection**: Integrated multiple state-of-the-art models like LLaMA and GEMMA, enabling flexible selection based on specific email generation requirements.  
-- **Job and CV Content Analysis**: Implemented detailed analysis of job descriptions and CVs using LangChain for precise information extraction, relevance determination, and email personalization.  
-- **Professional Assistant Chat**: Added a real-time chat feature powered by advanced prompting, assisting users with inquiries related to the generated email, job descriptions, or CVs.  
+### Key Features
+- Accepts a job description URL and a CV PDF to generate tailored emails.
+- Extracts relevant information from job descriptions, such as company name, role, and responsibilities.
+- Analyzes the user's CV for relevance to the job description.
+- Generates professional, formal emails with clear structure and human-like tone.
+- Includes an interactive chat assistant to answer queries based on the input provided.
+
+### Tools Used
+- **Streamlit**: For building the interactive and user-friendly web interface.
+- **LangChain**: To create and manage conversational AI pipelines.
+- **Python**: The core programming language for implementing functionality.
+- **Groq Cloud**: For accessing LLMs
 
 #### Screenshot
-![Alt text](ss.png)
-
+![Screenshot](ss.png)

@@ -1,2 +1,14 @@
+# build image 
 docker build -t 'email-generator' .
+# run image
 docker run --env-file .env -p 8080:8080 email-generator
+
+# push to hub
+docker tag email-generator shakib2022/streamlit-app:latest
+docker push shakib2022/streamlit-app:latest
+
+
+#pull from hub
+docker pull shakib2022/streamlit-app:latest
+# run pulled image
+docker run --env-file .env -p 8080:8080 shakib2022/streamlit-app

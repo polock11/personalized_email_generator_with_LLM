@@ -41,7 +41,7 @@ This project is an AI-powered tool designed to generate personalized emails for 
 
 3. **Access the Application**  
    - Open your web browser.  
-   - Navigate to `http://localhost:8501`.  
+   - Navigate to `http://localhost:8080`.  
    - The application interface should load.  
 
 4. **Upload a PDF**  

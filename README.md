@@ -37,7 +37,7 @@ This project is an AI-powered tool designed to generate personalized emails for 
      ```bash  
      docker run -p 8080:8080 shakib2022/streamlit-app:latest  
      ```  
-   - This command maps the container's port `8501` to your local machine.  
+   - This command maps the container's port `8080` to your local machine.  
 
 3. **Access the Application**  
    - Open your web browser.  

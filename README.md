@@ -35,7 +35,7 @@ This project is an AI-powered tool designed to generate personalized emails for 
 2. **Run the Docker Container**  
    - Use the command below to start the application:  
      ```bash  
-     docker run -p 8501:8501 shakib2022/streamlit-app:latest  
+     docker run -p 8080:8080 shakib2022/streamlit-app:latest  
      ```  
    - This command maps the container's port `8501` to your local machine.  
 

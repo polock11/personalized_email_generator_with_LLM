@@ -44,10 +44,6 @@ This project is an AI-powered tool designed to generate personalized emails for 
    - Navigate to `http://localhost:8080`.  
    - The application interface should load.  
 
-4. **Upload a PDF**  
-   - Click on the upload button to upload a PDF document.  
-   - The app will process the document and prepare it for querying.  
-
-5. **Query the Information**  
-   - Use the chat interface to ask questions about the uploaded document.  
-   - The system will provide responses based on the document's content.  
+4. **Upload a CV and Provide Job URL**  
+   - Click on the upload button to upload a CV and Paste desired URL.  
+   - The app will process the document and prepare the email, further modification can be done by chatting with the LLM.  
